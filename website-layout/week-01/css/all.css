@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.html,
+body {
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  color: #212529;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.banner {
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  line-height: 1.2;
+  padding: 151px 0;
+  margin-bottom: 64px;
+}
+.banner-title {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.banner-subtitle {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.copyright {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 64px 0px;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.l-list {
+  width: 856px;
+  margin: 0 auto 48px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.l-list .title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.l-list .list-item {
+  margin-bottom: 12px;
+}
+
+.quote-container {
+  width: 856px;
+  margin: 0 auto 48px;
+  padding: 32px 0px;
+  background-color: #f5fee7;
+  text-align: center;
+}
+.quote-container .quote-title {
+  color: #57a203;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.about-container {
+  width: 1076px;
+  margin: 0 auto 48px;
+}
+.about-container .image {
+  width: 1076px;
+  height: 717px;
+  margin-bottom: 24px;
+}
+.about-container .content {
+  padding: 0 110px;
+  text-align: justify;
+}
+.about-container .content-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+.about-container .content-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  color: #57a203;
+}
+.about-container .content-text-a {
+  margin-bottom: 16px;
+}
+.about-container .content-text-b {
+  padding-bottom: 48px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.list-container {
+  margin-bottom: 64px;
+}
+.list-container .history-list {
+  list-style-type: disc;
+  margin-left: 25px;
+}
+.list-container .history-list .text {
+  padding-left: 8px;
+  margin-left: 8px;
+  border-left: 1px solid #212529;
+}
+.list-container .spirit-list .list-item {
+  padding-left: 9px;
+  border-left: 3px solid #dee2e6;
+}
+.list-container .story-list {
+  color: #57a203;
+}
+.list-container .story-list-link {
+  margin-left: 8px;
+  padding-bottom: 4px;
+  text-decoration: none;
+  border-bottom: 1px solid #57a203;
+  color: #57a203;
+}
+.list-container .story-list-link:hover {
+  color: #6c757d;
+  font-weight: 500;
+}/*# sourceMappingURL=all.css.map */

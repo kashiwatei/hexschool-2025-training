@@ -1,0 +1,79 @@
+.quote-container {
+  width: 856px;
+  margin: 0 auto 48px;
+  padding: 32px 0px;
+  background-color: $b-primary;
+  text-align: center;
+  .quote-title {
+    color: $c-primary;
+    font-size: $f-s-medium;
+    font-weight: $f-w-bold;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+}
+.about-container {
+  width: 1076px;
+  margin: 0 auto 48px;
+  .image {
+    width: 1076px;
+    height: 717px;
+    margin-bottom: 24px;
+  }
+  .content {
+    padding: 0 110px;
+    text-align: justify;
+    &-title {
+      font-weight: $f-w-bold;
+      font-size: $f-s-large;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+    &-subtitle {
+      font-weight: $f-w-bold;
+      font-size: $f-s-medium;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      color: $c-primary;
+    }
+    &-text-a {
+      margin-bottom: 16px;
+    }
+    &-text-b {
+      padding-bottom: 48px;
+      border-bottom: 1px solid $c-neutral-lighten;
+    }
+  }
+}
+.list-container {
+  margin-bottom: 64px;
+  .history-list {
+    list-style-type: disc;
+    margin-left: 25px;
+    .text {
+      padding-left: 8px;
+      margin-left: 8px;
+      border-left: 1px solid $c-normal;
+    }
+  }
+  .spirit-list {
+    .list-item {
+      padding-left: 9px;
+      border-left: 3px solid $c-neutral-lighten;
+    }
+  }
+  .story-list {
+    color: $c-primary;
+    &-link {
+      margin-left: 8px;
+      padding-bottom: 4px;
+      text-decoration: none;
+      border-bottom: 1px solid $c-primary;
+      color: $c-primary;
+      &:hover {
+        color: $c-neutral;
+        font-weight: $f-w-bold - 200;
+      }
+    }
+  }
+}

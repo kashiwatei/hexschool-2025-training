@@ -1,0 +1,64 @@
+// generic setting
+
+* {
+  box-sizing: border-box;
+}
+.html,
+body {
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  color: $c-normal;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+// header
+
+.banner {
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  line-height: 1.2;
+  padding: 151px 0;
+  margin-bottom: 64px;
+  &-title {
+    color: $c-secondary;
+    font-size: 40px;
+    font-weight: $f-w-bold;
+    margin-bottom: 16px;
+  }
+  &-subtitle {
+    color: $c-secondary;
+    font-size: 28px;
+    font-weight: $f-w-bold;
+  }
+}
+
+// footer
+
+.copyright {
+  background-color: $b-secondary;
+  text-align: center;
+  padding: 64px 0px;
+  color: $c-neutral;
+  font-size: $f-s-small;
+}
+
+// layout: list
+
+.l-list {
+  width: 856px;
+  margin: 0 auto 48px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid $c-neutral-lighten;
+}
+.l-list .title {
+  font-weight: $f-w-bold;
+  font-size: $f-s-large;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+.l-list .list-item {
+  margin-bottom: 12px;
+}
