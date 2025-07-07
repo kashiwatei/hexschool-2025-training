@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-jcsb {
+  justify-content: space-between;
+}
+
+.flex-jcc {
+  justify-content: center;
+}
+
+.flex-aic {
+  align-items: center;
+}
+
+.m-l-auto {
+  margin-left: auto;
+}
+
+.btn {
+  background: #212529;
+  color: #ffffff;
+  padding: 12px 24px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.btn:active {
+  background: #F8F9FA;
+  color: #212529;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  letter-spacing: 0.8px;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  background-color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+a:hover {
+  color: #57A203;
+}
+
+.nav {
+  padding: 16px 0;
+}
+.nav-logo-link {
+  display: block;
+  background: url("../imges/logo.svg") no-repeat;
+  width: 129px;
+  height: 46px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 48px;
+}
+.nav-menu-item-link {
+  display: block;
+  width: 69px;
+  margin-right: 40px;
+}
+.nav .icon-link {
+  display: block;
+  font-size: 25px;
+}
+
+footer .discount {
+  background: #E8FEC5;
+  padding: 33.5px 0;
+  margin-bottom: 64px;
+}
+footer .discount .text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #212529;
+  margin-right: 24px;
+}
+footer .nav {
+  margin-bottom: 24px;
+}
+footer .copyright {
+  padding-top: 32px;
+  border-top: 1px solid #DEE2E6;
+}
+footer .copyright .text {
+  text-align: center;
+  font-size: 14px;
+  color: #6C757D;
+}/*# sourceMappingURL=all.css.map */

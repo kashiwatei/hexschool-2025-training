@@ -1,0 +1,87 @@
+// generic CSS
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  letter-spacing: 0.8px;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  background-color: $neutral;
+  letter-spacing: 0.05em;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: $neutral-900;
+}
+
+a:hover {
+    color: $primary-400;
+}
+
+// header CSS
+.nav {
+  padding: 16px 0;
+  &-logo-link {
+    display: block;
+    background: url("../imges/logo.svg") no-repeat;
+    width: 129px;
+    height: 46px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 48px;
+  }
+  &-menu-item-link {
+    display: block;
+    width: 69px;
+    margin-right: 40px;
+  }
+  .icon {
+    &-link {
+      display: block;
+      font-size: 25px;
+    }
+  }
+}
+
+// footer CSS
+footer {
+  .discount {
+    background: $primary-200;
+    padding: 33.5px 0;
+    margin-bottom: 64px;
+    .text {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.2;
+      color: $neutral-900;
+      margin-right: 24px;
+    }
+  }
+  .nav {
+    margin-bottom: 24px;
+  }
+  .copyright {
+    padding-top: 32px;
+    border-top: 1px solid $neutral-300;
+    .text {
+      text-align: center;
+      font-size: 14px;
+      color: $neutral-600;
+    }
+  }
+}
