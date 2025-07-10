@@ -1,0 +1,217 @@
+// product-list.css
+
+.breadcrumb {
+  .breadcrumb-item {
+    &-link {
+      display: block;
+      margin-right: 12px;
+      font-weight: 500;
+      color: $neutral-600;
+      &:hover {
+        color: $neutral-900;
+      }
+    }
+    &-symbol {
+      margin-right: 12px;
+      font-weight: 700;
+      color: $neutral-300;
+    }
+  }
+}
+.product-list-title {
+  padding: 7px 0;
+  &-text {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+  }
+}
+.product-list-content {
+  margin-bottom: 80px;
+  .aside-item-link {
+    width: 196px;
+    display: block;
+    padding: 12px 0;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .product-card-list {
+    width: 1100px;
+    .card {
+      margin-left: 24px;
+      margin-bottom: 48px;
+      &-img {
+        display: block;
+        width: 342.67px;
+        margin-bottom: 12px;
+      }
+      &-title {
+        font-weight: 700;
+        line-height: 1.2;
+        color: $neutral-900;
+        margin-bottom: 4px;
+      }
+    }
+  }
+  .pagination {
+    width: 336px;
+    margin: 0 auto;
+    .page-item-link {
+      display: block;
+      text-align: center;
+      font-weight: 500;
+      padding: 8px 15px;
+    }
+  }
+}
+
+// product-detail.css
+
+.detail-main-section {
+  padding: 64px 0;
+  .detail-aside {
+    width: 746px;
+    .aside-item-img {
+      width: 369px;
+      margin-bottom: 8px;
+    }
+  }
+}
+.detail-content {
+  width: 526px;
+  &-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    color: $neutral-900;
+    margin-bottom: 16px;
+  }
+  &-price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: $primary-400;
+    margin-bottom: 16px;
+    .price-discount {
+      font-size: 14px;
+      text-decoration: line-through;
+      color: $neutral-500;
+    }
+  }
+  &-text {
+    margin-bottom: 12px;
+  }
+  &-color {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    .color-title {
+      margin-bottom: 8px;
+    }
+    .color-card {
+      margin-right: 8px;
+      &-image {
+        width: 64px;
+        margin-bottom: 4px;
+      }
+      &-text {
+        text-align: center;
+        color: $neutral-600;
+      }
+    }
+  }
+  &-size {
+    margin-bottom: 48px;
+    &-title {
+      margin-bottom: 8px;
+    }
+    &-list {
+      width: 526px;
+      .size-item-btn {
+        background: $neutral;
+        width: 160px;
+        font-size: 16px;
+        font-weight: 500;
+        color: $neutral-900;
+        text-align: center;
+        padding: 12px 24px;
+        border: 1px solid $neutral-300;
+        border-radius: 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        &:focus {
+          border: 1px solid $neutral-900;
+        }
+      }
+    }
+    &-left {
+      font-size: 14px;
+    }
+  }
+  .btn-collect {
+    width: 259px;
+    padding: 14px;
+    text-align: center;
+    background: $neutral;
+    border-radius: 8px;
+    font-weight: 500;
+    .bi-heart {
+      margin-right: 2px;
+    }
+    &:focus {
+      background: $neutral-900;
+      color: $neutral;
+    }
+  }
+  .btn-reserve {
+    width: 259px;
+    padding: 14px;
+    text-align: center;
+    background: $neutral-900;
+    border-radius: 8px;
+    font-weight: 500;
+    color: $neutral;
+    .bi-handbag {
+      margin-right: 2px;
+    }
+    &:active {
+      background: $neutral;
+      color: $neutral-900;
+    }
+  }
+  .accordion {
+    padding: 12px 0;
+    border-bottom: 1px solid $neutral-300;
+    &-title {
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    &-text {
+      color: $neutral-600;
+    }
+  }
+}
+.detail-extra-section {
+  padding: 48px 0;
+  margin-bottom: 40px;
+  .extra-section-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .product-card-list {
+    .card {
+      &-img {
+        width: 306px;
+        margin-bottom: 12px;
+      }
+      &-title {
+        font-weight: 700;
+        line-height: 1.2;
+      }
+      &-price {
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -11,11 +11,11 @@ img {
 }
 
 body {
-  letter-spacing: 0.8px;
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
   background-color: $neutral;
   letter-spacing: 0.05em;
+  color: $neutral-900;
 }
 
 .container {
@@ -29,15 +29,15 @@ a {
 }
 
 a:hover {
-    color: $primary-400;
+  color: $primary-400;
 }
 
-// header CSS
+// header, footer navbar CSS
 .nav {
   padding: 16px 0;
   &-logo-link {
     display: block;
-    background: url("../imges/logo.svg") no-repeat;
+    background: url("../images/logo.svg") no-repeat;
     width: 129px;
     height: 46px;
     text-indent: 101%;
@@ -45,7 +45,7 @@ a:hover {
     overflow: hidden;
     margin-right: 48px;
   }
-  &-menu-item-link {
+  &-item-link {
     display: block;
     width: 69px;
     margin-right: 40px;
@@ -53,29 +53,39 @@ a:hover {
   .icon {
     &-link {
       display: block;
-      font-size: 25px;
+      font-size: 28px;
     }
   }
 }
 
 // footer CSS
-footer {
-  .discount {
-    background: $primary-200;
-    padding: 33.5px 0;
-    margin-bottom: 64px;
-    .text {
-      font-weight: 700;
-      font-size: 24px;
-      line-height: 1.2;
+
+.discount {
+  background: $primary-200;
+  padding: 33.5px 0;
+  .text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: $neutral-900;
+    margin-right: 24px;
+  }
+  .btn {
+    background: $neutral-900;
+    color: $neutral;
+    padding: 12px 24px;
+    font-weight: 500;
+    border-radius: 8px;
+    &:active {
+      background: $neutral-100;
       color: $neutral-900;
-      margin-right: 24px;
     }
   }
-  .nav {
-    margin-bottom: 24px;
-  }
+}
+.footer-content {
+  padding: 64px 0;
   .copyright {
+    margin-top: 8px;
     padding-top: 32px;
     border-top: 1px solid $neutral-300;
     .text {

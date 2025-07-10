@@ -1,0 +1,67 @@
+// flex
+
+.d-flex {
+  display: flex;
+}
+
+.flex-jcsb {
+  justify-content: space-between;
+}
+
+.flex-jcse {
+  justify-content: space-evenly;
+}
+
+.flex-jcc {
+  justify-content: center;
+}
+
+.flex-aic {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+// margin
+
+.m-l-auto {
+  margin-left: auto;
+}
+
+.m-b-32 {
+  margin-bottom: 32px;
+}
+
+.m-b-24 {
+  margin-bottom: 24px;
+}
+
+.m-b-12 {
+  margin-bottom: 12px;
+}
+
+// color
+
+.primary-400 {
+  color: $primary-400;
+}
+
+.neutral-900 {
+  color: $neutral-900 !important;
+}
+
+.neutral-300 {
+  color: $neutral-300 !important;
+}
+
+.danger-300 {
+  color: $danger-300;
+}
+
+// outline
+
+.btn-outline {
+  border: 1px solid $neutral-900 !important;
+}
