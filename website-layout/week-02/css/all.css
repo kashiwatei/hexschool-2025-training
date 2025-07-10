@@ -358,7 +358,7 @@ a:hover {
   font-weight: 500;
 }
 .detail-content .btn-collect .bi-heart {
-  margin-right: 2px;
+  margin-right: 8px;
 }
 .detail-content .btn-collect:focus {
   background: #212529;
@@ -374,7 +374,7 @@ a:hover {
   color: #ffffff;
 }
 .detail-content .btn-reserve .bi-handbag {
-  margin-right: 2px;
+  margin-right: 8px;
 }
 .detail-content .btn-reserve:active {
   background: #ffffff;
