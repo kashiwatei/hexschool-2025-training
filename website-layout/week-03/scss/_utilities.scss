@@ -20,6 +20,9 @@
   flex-wrap: wrap;
 }
 
+.f-direction-column {
+  flex-direction: column;
+}
 // margin
 
 .m-l-auto {
@@ -47,6 +50,11 @@
 }
 
 // color
+
+.primary-300-hover {
+  background-color: $primary-300;
+  color: $neutral-900;
+}
 
 .primary-400 {
   color: $primary-400;
@@ -78,4 +86,8 @@
 
 .d-inline {
   display: inline;
+}
+
+.active {
+  display: none;
 }
