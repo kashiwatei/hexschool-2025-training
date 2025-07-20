@@ -147,26 +147,3 @@
   }
 }
 
-@media (max-width: 768px) {
-  .product-detail-extra-content {
-    padding: 40px 0;
-    margin-bottom: 24px;
-    .title {
-      font-size: 20px;
-    }
-    .row {
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      margin-left: 0;
-      margin-right: 0;
-      &::-webkit-scrollbar {
-        display: none;
-      }
-    }
-    .col-3 {
-      min-width: 90%; 
-      // min-width 防止卡片在空間不足時被過度壓縮，導致內容難以閱讀或變形。 
-      // 每個卡片即使在空間不足時，也不能小於其父容器 70% 的寬度。
-    }
-  }
-}
