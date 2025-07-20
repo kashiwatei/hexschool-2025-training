@@ -1,6 +1,12 @@
 @import "variables";
 @import "reset";
-@import "utilities";
-@import "layout";
+@import "global";
+@import "./layout/utilities";
+@import "./layout/layout";
+@import "./layout/grid";
+@import "./components/breadcrumb";
+@import "./components/pagination";
+@import "./components/button";
 @import "brand-story";
 @import "product-list";
+@import "product-detail";

@@ -176,20 +176,6 @@
     }
   }
 }
-.list-style-1 {
-  list-style-type: disc;
-}
-
-.list-style-2 {
-  border-left: 3px solid $neutral-300;
-  padding-left: 12px;
-}
-
-.symbol-1::before {
-  content: "|";
-  margin-left: 8px;
-  margin-right: 8px;
-}
 
 @media (max-width: 768px) {
   .story-layout-list {
